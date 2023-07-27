@@ -227,6 +227,7 @@ def build_catalog():
         if "manifest" in app and "resources" in app["manifest"]:
             del app["manifest"]["resources"]
 
+    os.system("mkdir -p ./builds/default/v3/logos")
     for appid, app in result_dict_with_manifest_v2.items():
         appid = appid.lower()
         if os.path.exists(f"logos/{appid}.png"):
@@ -237,7 +238,6 @@ def build_catalog():
             logo_hash = None
         app["logo_hash"] = logo_hash
 
-    os.system("mkdir -p ./builds/default/v3/")
     with open("builds/default/v3/apps.json", "w") as f:
         f.write(
             json.dumps(
