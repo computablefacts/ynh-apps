@@ -3,3 +3,14 @@ category = "dev"
 level = 6
 state = "working"
 url = "https://github.com/computablefacts/ynh-jenkins_ynh"
+
+[portainer]
+category = "dev"
+level = 6
+state = "working"
+url = "https://github.com/computablefacts/portainer_ynh"
+
+# TODO: add cf_faq
+
+# TODO: test pulling Jenkins on a cf-prod branche
+
