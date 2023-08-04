@@ -2,7 +2,8 @@
 category = "dev"
 level = 6
 state = "working"
-url = "https://github.com/computablefacts/ynh-jenkins_ynh"
+url = "https://github.com/computablefacts/jenkins_ynh"
+branch = "cf-prod"
 
 [portainer]
 category = "dev"
@@ -10,7 +11,11 @@ level = 6
 state = "working"
 url = "https://github.com/computablefacts/portainer_ynh"
 
+[redirect]
+category = "dev"
+level = 6
+state = "inprogress"
+url = "https://github.com/computablefacts/redirect_ynh"
+branch = "cf-prod"
+
 # TODO: add cf_faq
-
-# TODO: test pulling Jenkins on a cf-prod branche
-
