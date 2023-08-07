@@ -1,3 +1,9 @@
+[cf_custom]
+category = "dev"
+level = 6
+state = "working"
+url = "https://github.com/computablefacts/cf_custom_ynh"
+
 [jenkins]
 category = "dev"
 level = 6
