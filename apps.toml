@@ -20,7 +20,7 @@ url = "https://github.com/computablefacts/portainer_ynh"
 [redirect]
 category = "dev"
 level = 6
-state = "inprogress"
+state = "working"
 url = "https://github.com/computablefacts/redirect_ynh"
 branch = "cf-prod"
 
