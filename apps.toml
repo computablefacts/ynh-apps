@@ -1,8 +1,28 @@
+[cachet]
+category = "system_tools"
+level = 8
+potential_alternative_to = [ "StatusHub" ]
+state = "working"
+subtags = [ "monitoring" ]
+url = "https://github.com/YunoHost-Apps/cachet_ynh"
+
 [cf_custom]
 category = "dev"
 level = 6
 state = "working"
 url = "https://github.com/computablefacts/cf_custom_ynh"
+
+[cyberchef]
+category = "small_utilities"
+level = 7
+state = "working"
+url = "https://github.com/YunoHost-Apps/cyberchef_ynh"
+
+[huginn]
+category = "small_utilities"
+level = 6
+state = "working"
+url = "https://github.com/YunoHost-Apps/huginn_ynh"
 
 [jenkins]
 category = "dev"
@@ -11,11 +31,46 @@ state = "working"
 url = "https://github.com/computablefacts/jenkins_ynh"
 branch = "cf-prod"
 
+[jupyterlab]
+category = "dev"
+level = 6
+state = "working"
+subtags = [ "programming" ]
+url = "https://github.com/YunoHost-Apps/jupyterlab_ynh"
+
+[meilisearch]
+category = "dev"
+level = 7
+state = "working"
+subtags = [ "programming" ]
+url = "https://github.com/YunoHost-Apps/meilisearch_ynh"
+
+[monitorix]
+category = "system_tools"
+level = 6
+state = "working"
+subtags = [ "monitoring" ]
+url = "https://github.com/YunoHost-Apps/monitorix_ynh"
+
+[phpmyadmin]
+category = "system_tools"
+level = 8
+state = "working"
+subtags = [ "db" ]
+url = "https://github.com/YunoHost-Apps/phpmyadmin_ynh"
+
 [portainer]
 category = "dev"
 level = 6
 state = "working"
 url = "https://github.com/computablefacts/portainer_ynh"
+
+[prometheus]
+category = "system_tools"
+level = 8
+state = "working"
+subtags = [ "monitoring" ]
+url = "https://github.com/YunoHost-Apps/prometheus_ynh"
 
 [redirect]
 category = "dev"
@@ -23,5 +78,31 @@ level = 6
 state = "working"
 url = "https://github.com/computablefacts/redirect_ynh"
 branch = "cf-prod"
+
+[signaturepdf]
+category = "small_utilities"
+level = 8
+state = "working"
+url = "https://github.com/YunoHost-Apps/signaturepdf_ynh"
+
+[snipeit]
+category = "productivity_and_management"
+level = 8
+state = "working"
+subtags = [ "business_and_ngos" ]
+url = "https://github.com/YunoHost-Apps/snipeit_ynh"
+
+[statpingng]
+category = "system_tools"
+level = 7
+state = "working"
+url = "https://github.com/YunoHost-Apps/statpingng_ynh"
+
+[transfersh]
+category = "synchronization"
+level = 8
+state = "working"
+subtags = [ "files" ]
+url = "https://github.com/YunoHost-Apps/transfersh_ynh"
 
 # TODO: add cf_faq
