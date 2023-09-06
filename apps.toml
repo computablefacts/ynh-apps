@@ -1,3 +1,9 @@
+[adversarymeter_redir]
+category = "system_tools"
+level = 6
+state = "working"
+url = "https://github.com/computablefacts/adversarymeter_redir_ynh"
+
 [cachet]
 category = "system_tools"
 level = 8
