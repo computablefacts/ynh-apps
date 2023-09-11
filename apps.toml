@@ -24,11 +24,11 @@ level = 7
 state = "working"
 url = "https://github.com/YunoHost-Apps/cyberchef_ynh"
 
-[huginn]
-category = "small_utilities"
-level = 6
-state = "working"
-url = "https://github.com/YunoHost-Apps/huginn_ynh"
+# [huginn]
+# category = "small_utilities"
+# level = 6
+# state = "working"
+# url = "https://github.com/YunoHost-Apps/huginn_ynh"
 
 [jenkins]
 category = "dev"
@@ -44,12 +44,12 @@ state = "working"
 subtags = [ "programming" ]
 url = "https://github.com/YunoHost-Apps/jupyterlab_ynh"
 
-[meilisearch]
-category = "dev"
-level = 7
-state = "working"
-subtags = [ "programming" ]
-url = "https://github.com/YunoHost-Apps/meilisearch_ynh"
+# [meilisearch]
+# category = "dev"
+# level = 7
+# state = "working"
+# subtags = [ "programming" ]
+# url = "https://github.com/YunoHost-Apps/meilisearch_ynh"
 
 [monitorix]
 category = "system_tools"
@@ -71,12 +71,12 @@ level = 6
 state = "working"
 url = "https://github.com/computablefacts/portainer_ynh"
 
-[prometheus]
-category = "system_tools"
-level = 8
-state = "working"
-subtags = [ "monitoring" ]
-url = "https://github.com/YunoHost-Apps/prometheus_ynh"
+# [prometheus]
+# category = "system_tools"
+# level = 8
+# state = "working"
+# subtags = [ "monitoring" ]
+# url = "https://github.com/YunoHost-Apps/prometheus_ynh"
 
 [redirect]
 category = "dev"
@@ -85,18 +85,18 @@ state = "working"
 url = "https://github.com/computablefacts/redirect_ynh"
 branch = "cf-prod"
 
-[signaturepdf]
-category = "small_utilities"
-level = 8
-state = "working"
-url = "https://github.com/YunoHost-Apps/signaturepdf_ynh"
+# [signaturepdf]
+# category = "small_utilities"
+# level = 8
+# state = "working"
+# url = "https://github.com/YunoHost-Apps/signaturepdf_ynh"
 
-[snipeit]
-category = "productivity_and_management"
-level = 8
-state = "working"
-subtags = [ "business_and_ngos" ]
-url = "https://github.com/YunoHost-Apps/snipeit_ynh"
+# [snipeit]
+# category = "productivity_and_management"
+# level = 8
+# state = "working"
+# subtags = [ "business_and_ngos" ]
+# url = "https://github.com/YunoHost-Apps/snipeit_ynh"
 
 [statpingng]
 category = "system_tools"
