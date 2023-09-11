@@ -14,7 +14,7 @@ url = "https://github.com/YunoHost-Apps/cachet_ynh"
 
 [cf_custom]
 category = "dev"
-level = 6
+level = 8
 state = "working"
 url = "https://github.com/computablefacts/cf_custom_ynh"
 
