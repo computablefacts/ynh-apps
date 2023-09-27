@@ -44,6 +44,12 @@ state = "working"
 subtags = [ "programming" ]
 url = "https://github.com/YunoHost-Apps/jupyterlab_ynh"
 
+[keycloak]
+category = "dev"
+level = 6
+state = "working"
+url = "https://github.com/computablefacts/keycloak_ynh"
+
 # [meilisearch]
 # category = "dev"
 # level = 7
@@ -110,5 +116,3 @@ level = 8
 state = "working"
 subtags = [ "files" ]
 url = "https://github.com/YunoHost-Apps/transfersh_ynh"
-
-# TODO: add cf_faq
