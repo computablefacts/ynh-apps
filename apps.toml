@@ -24,6 +24,15 @@ level = 7
 state = "working"
 url = "https://github.com/YunoHost-Apps/cyberchef_ynh"
 
+[flarum]
+category = "communication"
+level = 8
+potential_alternative_to = [ "Invision Community", "vBulletin", "XenForo" ]
+state = "working"
+subtags = [ "forum" ]
+url = "https://github.com/computablefacts/flarum_ynh"
+branch = "cf-prod"
+
 # [huginn]
 # category = "small_utilities"
 # level = 6
