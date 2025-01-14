@@ -1,6 +1,25 @@
+# Computablefacts application catalog
+
+## How-to build locally
+
+Simply lauch the script `./rebuild.sh`.
+
+It should regenerate the files into `./builds/default/`. 
+You could see the build progress in the logfile `./app_list_auto_update.log`.
+You could watch the JSON into `builds/default/v3/apps.json`.
+
+## How-to deploy
+
+When all is OK, commit your changes.
+Then you should tag the repo with `git tag 1.6.7` (change the tag). Then push the new tag with `git push --tags`.
+
+Docker Hub will build a new Docker image with that tag. You can check that [here](https://hub.docker.com/repository/docker/computablefacts/ynh-apps/builds).
+
+Our catalog is deployed on Swarm. You must change the tag of the image for the service `cf-ynh-apps_web` to deploy the tagged version.
+
 # YunoHost application catalog
 
-<img src="https://avatars.githubusercontent.com/u/1519495?s=200&v=4" width=80><img src="https://yunohost.org/user/images/yunohost_package.png" width=80>
+<img src="https://avatars.githubusercontent.com/u/1519495?s=200&v=4" width=80><img src="https://avatars.githubusercontent.com/u/18501020?s=200&v=4" width=80>
 
 Here you will find the repositories and versions of every apps available in YunoHost's default catalog.
 
